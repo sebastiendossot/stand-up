@@ -102,12 +102,12 @@ const StandUp: FunctionComponent<Props> = () => {
                   border: `2px solid ${ timeOver ? "red" : "white"}`
                   }} alt={currentSpeaker}/>
           </ul>
-          <img onClick={() => changeSpeaker()} className="next-button img-responsive" src={`./images/next.png`} style={{height: '40px', width: "auto"}} alt={"next"}/>
+          <img onClick={() => changeSpeaker()} className="next-button img-responsive" src={`./shared-images/next.png`} style={{height: '40px', width: "auto"}} alt={"next"}/>
         </>
       :
         <>
           <h1>See you next Stand up ! 🚀</h1>
-          <img className="img-responsive" src={`./images/chicken.png`} style={{height: '200px', width: 'auto'}} alt={currentSpeaker}/>
+          <img className="img-responsive" src={`./shared-images/chicken.png`} style={{height: '200px', width: 'auto'}} alt={currentSpeaker}/>
         </>
     }
   </div>
