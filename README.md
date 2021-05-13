@@ -1,6 +1,9 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to your new stand-up randomizer, add photos in the `public/images` with the names. 
+Also add people to the `/src/config/people-names.json` file.
+
+If you want to add a way to handle special characters and spaces in names, you can send PRs :) 
 
 ## Available Scripts
 
